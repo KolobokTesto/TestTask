@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="/Users/admin/OMILIA/TestTask">
-        <parameter name="URL" value="file:///Users/admin/OMILIA/TestTask/src/main/resources/AQA_Test_Task.html"/>
+<suite name="Suite for car cloning tests">
+    <test name="TestTask">
+        <parameter name="URL" value="file:///Users/admin/Downloads/AQA_Test_Task%20(2)%20(1).html"/>
         <parameter name="vehicleName" value="Vehicle 1"/>
         <parameter name="vehicleModelBMW" value="BMW"/>
         <parameter name="vehicleYear" value="2020"/>
