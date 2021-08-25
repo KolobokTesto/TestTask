@@ -9,6 +9,6 @@ mvn clean test -Dsurefire.suiteXmlFiles=testng.xml
 ##  Reporting
 When tests are finished, run the following command in terminal in order to get Allure report:
 ```bash
-mvn allure:serve
+cd target && allure serve -h localhost -p 9999
 ```
 
